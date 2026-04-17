@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(4, 219, 4);
+    gap: 180px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.searchfoto {
+    width: 18px;
+    display: flex;
+    top: 5px;
+    left: 160px;
+    position: absolute;
+
+}
+
+.search {
+    position: relative;
+}
+
+input {
+    border-radius: 19px;
+    height: 30px;
+    padding: 10px;
+}
+
+.first {
+    background-color: #008A2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+}
+
+span {
+    color: yellow;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bonus {
+    width: 150px;
+}
+
+.saptitle {
+    color: white;
+}
+
+.surprize {
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    background-color: orange;
+}
+
+.healthy {
+    color: orange;
+}
+
+.healt {
+    color: gray;
+    font-size: 20px;
+}
+
+.second {
+    padding: 20px;
+    display: flex;
+    gap: 310px;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.jusu {
+    font-size: 80px;
+}
+
+.card {
+    border: 2px solid rgb(205, 173, 145);
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 30px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: antiquewhite;
+}
+
+.cardImg {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 60px;
+}
+
+.cardButton {
+    border: none;
+    background-color: white;
+    text-align: left;
+
+}
+
+.card:hover .cardButton {
+    background-color: antiquewhite;
+}
+
+.cardText {
+    color: gray;
+}
+
+.third {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.firstText {
+    text-align: center;
+    color: green;
+    font-size: 24px;
+}
+
+.firstTitle {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.fouth {
+    margin-top: 100px;
+
+
+}
+
+.firstButton {
+    border-radius: 10px;
+    width: 74px;
+    height: 30px;
+    color: green;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid green;
+
+}
+
+.firstButton:hover {
+    background-color: green;
+    transition: 0.5s;
+    color: white;
+}
+
+.fouthdiv {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.boxCard {
+    width: 424px;
+    height: 345px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.455);
+}
+
+.boxImg {
+    border-top-right-radius: 30px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    height: 250px;
+    box-shadow: 1;
+}
+
+.text1 {
+    display: flex;
+    gap: 260px;
+    margin: 6px;
+}
+
+.text2 {
+    display: flex;
+    gap: 290px;
+}
+
+.cardBt {
+    background-color: green;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 13x px;
+}
+
+.box1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.box2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.wrap{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.fouthBr{
+    margin-top: 100px;
+}                                                                       

@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+header {
+    background-image: url(bgc2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        font-family: "Fjalla One", sans-serif;
+    }
+}
+
+.head {
+    padding: 20px 400px;
+    gap: 70px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+
+    span {
+        color: goldenrod;
+    }
+
+    .button {
+        display: flex;
+        gap: 40px;
+
+        .login {
+            color: white;
+            background: none;
+            border: none;
+            font-size: 20px;
+        }
+
+        .sign-up {
+            background-color: goldenrod;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 10px;
+            font-size: 8px;
+        }
+    }
+
+    nav {
+        display: flex;
+        gap: 30px;
+
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    padding: 60px 200px 0;
+    background-image: url(bgc3.png);
+    color: #fff;
+
+    span {
+        color: goldenrod;
+        font-size: 25px;
+    }
+
+    .function {
+        display: flex;
+
+        img {
+            width: 600px;
+        }
+
+        .text {
+            h1 {
+                font-size: 40px;
+            }
+
+            button {
+                border: none;
+                background-color: goldenrod;
+                padding: 10PX 30px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.one {
+    margin: 10px 0;
+
+    .class {
+        padding: 20px 500px;
+        display: flex;
+
+        .group5 {
+            width: 200px;
+        }
+    }
+}
+
+.two {
+    margin: 100px 100px 1px 400px;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-size: 45px;
+        font-family: sans-serif;
+    }
+
+    p {
+        font-size: 18px;
+        color: rgb(70, 70, 70);
+    }
+
+    .hello {
+        img {
+            width: 450px;
+            padding: 0 50px;
+        }
+    }
+}
+
+.three {
+    display: flex;
+    margin: 20px 100px 1px 400px;
+    align-items: center;
+
+    img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 45px;
+        font-family: sans-serif;
+    }
+
+    button {
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(122, 204, 164);
+        color: #fff;
+    }
+}
+
+.four {
+    display: flex;
+    margin: 20px 100px 1px 400px;
+    align-items: center;
+
+    div {
+        padding: 0 20px;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 45px;
+        font-family: sans-serif;
+    }
+
+    .div {
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(122, 204, 164);
+        color: #fff;
+    }
+}
+
+.five {
+    .inon {
+        background-color: #fff;
+        color: rgb(122, 204, 164);
+        border-color: rgb(122, 204, 164);
+        padding: 10px 20px;
+        align-items: center;
+        font-size: 25px;
+        font-family: sans-serif;
+        border-radius: 10px;
+        padding: 10px 100px;
+    }
+
+    .tomuch {
+        display: flex;
+    }
+
+    .tumuch {
+        display: flex;
+    }
+
+    h1 {
+        margin: 0 0 50px 400px;
+        font-size: 45px;
+        color: black;
+    }
+
+    .first {
+        font-size: 15px;
+        margin: 0 0 0 550px;
+    }
+
+    .yes {
+        padding: 25px 50px;
+    }
+
+    .none {
+        display: flex;
+
+        p {
+            padding: 0 5px;
+        }
+
+        del {
+            color: lightslategrey;
+        }
+    }
+
+    .yes {
+        margin: 100px 100px;
+i {
+    color: red;
+}
+        .sixseven {
+            margin: 0 0 40px 0;
+            background-color: rgba(201, 129, 201, 0.633);
+            text-align: center;
+            color: purple;
+            border-radius: 10px;
+            font-family: sans-serif;
+            gap: 20px;
+            padding: 10px 50px;
+            border: none;
+            padding: 10px 25px;
+        }
+
+        h3 {
+            font-size: 15px;
+            font-family: sans-serif;
+        }
+
+        h2 {
+            color: black;
+
+            span {
+                font-size: 30px;
+            }
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+.no {
+    padding: 80px 0;
+
+    p {
+        font-size: 20px;
+    }
+i {
+    color: red;
+}
+    .goodmorning {
+        padding: 25px 50px 50px 50px;
+        border: 2px solid rgb(131, 225, 214);
+        border-radius: 20px;
+    }
+
+    .mormal {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(131, 225, 214, 0.623);
+        margin: 40px 0;
+        color: rgb(77, 173, 147);
+
+    }
+
+    .NONAME {
+        background-color: rgb(122, 204, 164);
+        color: #fff;
+        border-color: rgb(122, 204, 164);
+        padding: 10px 20px;
+        align-items: center;
+        font-size: 25px;
+        font-family: sans-serif;
+        border-radius: 10px;
+        padding: 10px 100px;
+
+    }
+
+    .perl {
+        color: rgb(77, 173, 147);
+
+    }
+}
+
+.yesno {
+    margin: 100px 100px;
+
+    .youtube {
+        padding: 50px 0;
+    }
+    i {
+    color: red;
+}
+
+    .funny {
+        margin: 0 0 40px 0;
+        background-color: rgba(228, 95, 95, 0.633);
+        text-align: center;
+        color: rgb(228, 0, 0);
+        border-radius: 10px;
+        font-family: sans-serif;
+        gap: 20px;
+        padding: 10px 50px;
+        border: none;
+        padding: 10px 25px;
+    }
+
+    h3 {
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    h2 {
+        color: black;
+
+        span {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.leftright {
+    background-color: white;
+    color: rgb(122, 204, 164);
+    border-color: rgb(122, 204, 164);
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: 10px;
+
+    padding: 10px 100px;
+}
+
+.six {
+    padding: 50px 200px;
+
+    .right {
+        width: 400px;
+    }
+
+    .noname {
+        position: relative;
+        display: flex;
+    }
+}
+
+.seven {
+    padding: 0 0 20px 0;
+    .hone {
+        margin: 0px 561px;
+    }
+    .pone {
+        margin: 0 600px;
+        color: #797979;
+    }
+    .justdo {
+        padding: 20px 50px;
+        background-image: url(backgroundimg.png);
+        background-repeat: no-repeat;
+        color: white;
+        height: 200px;
+        .girl {
+            background-color: goldenrod;
+            border-radius: 100%;
+        }
+
+        .numberone {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .hello {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+    .youtube {
+        display: flex;
+        gap: 250px;
+        align-items: center;
+        justify-content: center;
+        .fight {
+            img {
+                height: 350px;
+            }
+        }
+    }
+}
+footer {
+    background-image: url(bgc2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    span {
+        color: goldenrod;
+    }
+    .google {
+        padding: 100px 200px;
+        display: flex;
+        gap: 200px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .div {
+        display: flex;
+        gap: 20px;
+        .fa-facebook {
+            color: white;
+        }
+    }
+}
