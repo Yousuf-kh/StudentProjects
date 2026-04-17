@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidamir Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hero {
+            height: 100vh;
+            background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            flex-direction: column;
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+            margin-bottom: 30px;
+        }
+        .hero .btn {
+            padding: 12px 30px;
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-section {
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #f8f9fa;
+        }
+        .product-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .product-section p {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+            .hero p {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+<div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="buyModalLabel">Buy Product</h5>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      
+      <div class="modal-body">
+        <p>Welcome to Saidamir Shop!</p>
+
+        <p>You can buy food, sneakers, and iPhones here.</p>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Confirm Buy</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Saidamir Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" href="#home">Everything That's here</a></li>
+                <li class="nav-item"><a class="nav-link" href="#product">What Are You Buying</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Food,Iphones,sneakers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">EveryThing About The Food</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Brand's</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Text/Messages</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section id="home" class="hero">
+    <div>
+        <h1>Everything You Need</h1>
+        <p>The Food The Sneakers And More</p>
+        <a href="#pricing" class="btn btn-warning btn-lg">Buy Now</a>
+    </div>
+</section>
+
+<section id="about" class="container">
+     <div class="row text-center">
+        <div class="col-md-4">
+    <h2>Our Restaurant</h2>
+    <p>Restaurants are places where people go to enjoy food, relax, and spend time with family or friends. There are many types of restaurants, such as fast food, casual dining, and fine dining. Each offers different kinds of meals, from burgers and pizza to traditional dishes and international cuisine. Restaurants also create a special atmosphere with music, decoration, and friendly service. Some people visit restaurants to celebrate special occasions like birthdays. Others go simply because they don’t want to cook at home. Good restaurants focus on quality food, cleanliness, and customer satisfaction, making every visit a pleasant and memorable experience for everyone.
+                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/-RAmiqe2neU?si=oB_r9w-6CDq68Qnd&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <img src="https://silverspoonlondon.co.uk/wp-content/uploads/2018/07/Le-Sirenuse-1-of-1.jpg "  width="100%" alt= "">
+                 <h3>Food Restaurant</h3>
+                <p>$1,000,000</p>
+                <p>Single page website, responsive design, editable content</p>
+                <a href="#contact" class="btn btn-primary">Buy Now</a>
+
+    </p>
+
+</section>
+
+<section id="product" class="product-section">
+    <div>
+        <h2>What You Are Buying</h2>
+        <p>You Can Buy Everything You Can The Food , Sneaker's , Iphones</p>
+        <a href="#pricing" class="btn btn-success btn-lg mt-3">See Price</a>
+    </div>
+</section>
+
+<section id="pricing" class="container">
+    <h2>Sneakers</h2>   
+       
+        <div class="row text-center">
+        <div class="col-md-4">
+                 <iframe id="video2" width="100%" height="315"
+src="https://www.youtube.com/embed/sro7mKKI1VQ?enablejsapi=1&mute=1"
+allow="autoplay; encrypted-media"
+allowfullscreen></iframe>
+<img class=""  src="https://thenodmag.com/_next/image?url=https%3A%2F%2Fassets.thenodmag.com%2Fwebsite-assets%2Fluxury_sneakers_feature_thenodmag_7df9ad1d7d-oubroxlcqoqnarw-16x9.jpg&w=3840&q=95 "width=100%
+ alt="">
+                <h3>Standard</h3>
+                <p>$5,000</p>
+                <p>5-page website, responsive, editable, premium sections</p>
+                <a href="#contact" class="btn btn-primary">Buy Now</a>
+            </div></div>
+        </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+
+           
+    </div>
+</section>
+
+<section id="features" class="container">
+    <h2>EveryThing About  Iphones</h2>
+    <div class="row text-center">
+        <div class="col-md-4">
+           
+        </div>
+        <div class="col-md-4">
+
+        </div class="row text-center"></div>
+        <div class="col-md-4">
+            <p>The iPhone 17 Pro Max is expected to be a powerful and stylish smartphone. It may feature a faster processor, improved cameras, and a long-lasting battery. The design could be slimmer with a brighter display. Many users look forward to better performance, advanced photography features, and new technology that makes everyday tasks easier and more enjoyable.
+                <iframe id="video3" width="100%" height="315"
+src="https://www.youtube.com/embed/HOR6O448BrI?enablejsapi=1&mute=1"
+allow="autoplay; encrypted-media"
+allowfullscreen></iframe>
+  <img class="d-flex" src="https://www.stuff.tv/wp-content/uploads/sites/2/2025/09/Best-iPhone-Buying-Guide-Hero-Image.jpg?quality=75"  width="100%" alt="">
+                <h3>Pro</h3>
+                <p>$1,700</p>
+                <p>Full 7-page website, responsive, editable, premium features</p>
+                <a href="#contact" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="container">
+    <h2>The Brend's</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card p-3 mb-3">
+                <img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lacoste_store.jpg/330px-Lacoste_store.jpg" alt="">
+                <p>"Very easy to use and looks amazing. My site is live in hours!"</p>
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 mb-3">
+                <p>"Best template I have ever bought. Highly recommended."</p>
+                <img src="https://thumbs.dreamstime.com/b/adidas-ag-multinational-corporation-founded-headquartered-herzogenaurach-germany-designs-manufactures-shoes-139136442.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card p-3 mb-3">
+                <p>"Clean design and responsive. Perfect for my business."</p>
+                <img src="https://miro.medium.com/1*cJUVJJSWPj9WFIJlvf7dKg.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Text/Messages</h2>
+    <p>Fill out the form below to buy this template or ask questions.</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Saidamir Template Shop. All Rights Reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    var myModal = new bootstrap.Modal(document.getElementById('buyModal'));
+    myModal.show();
+});
+</script>
+<script>
+let players = [];
+let current = 0;
+
+function onYouTubeIframeAPIReady() {
+    players[0] = new YT.Player('video1', {
+        events: { 'onStateChange': onPlayerStateChange }
+    });
+    players[1] = new YT.Player('video2', {
+        events: { 'onStateChange': onPlayerStateChange }
+    });
+    players[2] = new YT.Player('video3', {
+        events: { 'onStateChange': onPlayerStateChange }
+    });
+
+    players[0].playVideo();
+}
+
+function onPlayerStateChange(event) {
+    if (event.data === YT.PlayerState.ENDED) {
+        current++;
+        if (current < players.length) {
+            players[current].playVideo();
+        }
+    }
+}
+</script>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+
+
+</script>
+</body>
+</html>
+
