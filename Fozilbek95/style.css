@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(241, 237, 237);
+    color: aliceblue;
+
+    img {
+        width: 250px;
+        display: flex;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    a {
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        transition: 0.5s;
+        font-size: 23px;
+    }
+    a:hover{
+        color: red;
+        transform: scale(1.1);
+    }
+    
+   
+
+}
+
+main {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 70dvh;
+    align-items: center;
+
+    div {
+        width: 30%;
+    }
+
+    img {
+        width: 40%;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 19px;
+    }
+
+    button {
+        background-color: rgb(240, 239, 239);
+        height: 40px;
+        border-radius: 10px;
+        transition: 0.9s;
+        width: 120px;
+    }
+
+    button:hover{
+        background-color: red;
+        color: azure;
+    }
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    background-image: url(https://cdn.wallpapersafari.com/47/37/eqb9Jf.png);
+    background-position: center;
+
+    p{
+        color: azure;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+   
+        img {
+            width: 600px;
+            height: 500px;
+            position: relative;
+            padding: 60px;
+        }
+
+        button {
+            width: 200px;
+            height: 80px;
+            position: absolute;
+            margin-bottom: 350px;
+            background-color: #eee;
+            border: none;
+            border-radius: 10px;
+            padding: 20px;
+            margin-left: 20px;
+        }
+
+    }
+}
+
+span {
+    color: red;
+}
+
+h3 {
+    color: red;
+}
+
+.models {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    background-color: #333;
+    
+    .m {
+        width: 40%;
+    }
+
+
+    img {
+        width: 100%;
+    }
+    
+    h2{
+        color: rgb(240, 238, 238);
+    }
+
+    h1{
+        color: rgb(248, 243, 243);
+    }
+
+    .t{
+        color: rgb(252, 250, 250);
+    }
+}
+
+
+.boxes {
+    width: 40%;
+    .box {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+
+
+        .box1, .box2, .box3, .box4{
+            border-radius: 10px;
+            h2{
+                color: black;
+            }
+            p{
+                color: white;
+                font-size: 15px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+        div {
+            background-color: crimson;
+            padding: 20px;
+
+            img {
+                width: 120px;
+                border-radius: 100%;
+            }
+            .number {
+                    font-size: 70px;
+
+                }   
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+             
+            }
+        }
+    }
+
+}
+
+
+.reclama {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: 60px;
+
+    h1 {
+        padding-left: 100px;
+
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    gap: 30px; 
+    display: flex;
+    flex-direction: column;
+    
+    h1{
+        color: white;
+    
+    }
+
+    p{
+        color: aliceblue;
+    }
+
+    .infa{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: space-around;
+
+        .infa1{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+
+       
+    }
+
+    
+}
+
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .footerImg{
+            width: 100px;
+            height: 100px;
+            display: flex;
+            text-align: center ;
+        }

@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: black;
+}
+
+
+.hero {
+    height: 100vh;
+    position: relative;
+    background-position: bottom;
+    background: url(https://static-prod.blackrussia.online/_nuxt/main_header_bg.CNiLxPpi.webp);
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: red;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    opacity: 0.8;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    max-width: 500px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.content h1 {
+    font-size: 60px;
+}
+
+.content h1 span {
+    color: red;
+}
+
+.content p {
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+}
+
+.yusufaka {
+    color: aliceblue;
+
+    h3 {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    span {
+        color: red;
+    }
+
+}
+
+
+.imgs2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.start-play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    background: linear-gradient(to right, #000 40%, #7a0000);
+    color: white;
+}
+
+.start-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.start-content h2 span {
+    color: red;
+}
+
+.start-content ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.start-content ul li {
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.download-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 20px;
+}
+
+.download-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #eee;
+    color: black;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+}
+
+.download-btn img {
+    width: 40px;
+}
+
+.download-btn p {
+    font-size: 14px;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px;
+    gap: 20px;
+}
+
+.characters img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.foto {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
+.New_section {
+    color: white;
+
+    h1 {
+        padding: 20px;
+    }
+
+    span {
+        color: red;
+    }
+}
+
+.big {
+    width: 500px;
+}
+
+.big_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.omgewr {
+    height: 100vh;
+
+    position: relative;
+    background-position: bottom;
+    background: url(https://static-prod.blackrussia.online/_nuxt/main_header_bg.CNiLxPpi.webp);
+    background-size: cover;
+}
+.comands {
+    display: flex;
+    height: 100dvh; 
+    align-items: end;
+
+    h1 {
+        font-size: 20px;
+    }
+
+    img {
+        width: 50%;
+        align-items: bottom;
+    }
+}
+
+.qwert{
+    width: 830px;
+}
+
+.misskarina{
+    width: 79px;
+}
+
+.aasas{
+    width: 49px;
+}
+
+.elades{
+    width: 150px;
+    display: flex;
+}
+
+.footerTop{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    align-items: center;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.footerText1{
+    color: aliceblue;
+    font-size: 8px;
+    display: flex;
+}
+
+.footerText{
+    font-size: 15px;
+    font-weight: 700;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.footerlinks{
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+
+    a {
+        color: white;
+        font-size: 12px;
+
+    }
+}
