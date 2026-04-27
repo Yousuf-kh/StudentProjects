@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  background-image: url(Frame\ 7.png);
+  height: 600px;
+  background-size: cover;
+  position: relative;
+  background-position: bottom;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-box {
+  position: absolute;
+  bottom: 150px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  button {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  nav {
+    display: flex;
+    gap: 25px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+.popular {
+  background-color: #100a39;
+  padding: 50px 0px;
+  h1 {
+    color: white;
+    padding-bottom: 30px;
+  }
+  .popular-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  button {
+    color: white;
+    background-color: #100a39;
+    border-radius: 20px;
+
+    padding: 10px 29px;
+    border: 1px solid white;
+  }
+}
+
+.wrap {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  padding: 30px 150px;
+}
+
+.wrap2 {
+  background-image: url(image\ 15.png);
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 100px;
+  color: white;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+   gap: 15px;
+
+  button {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+  }
+}
+
+.wrap3 {
+  background-color: #100a39;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.wrap4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+
+
+  .box2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    button {
+      width: 140px;
+      height: 40px;
+      border-radius: 40px;
+      background-color: red;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+
+.new {
+  text-align: center;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #100a39;
+  display: flex;
+  justify-content: space-around;
+
+  .box3 {
+    padding: 60px 60px;
+    color: white;
+
+    span {
+      color: red;
+    }
+  } 
+
+
+  .wrap5 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    gap: 20px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
