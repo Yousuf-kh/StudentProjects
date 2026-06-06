@@ -1,0 +1,276 @@
+/* Базовые настройки */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background-color: #121212; /* Темный фон, приятный для глаз */
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+}
+
+/* Контейнер для центрирования контента */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Заголовки */
+h2 {
+	color: #f1c40f; /* Желтый цвет Бэтмена */
+	margin-bottom: 20px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+/* Шапка сайта */
+header {
+	background-color: rgba(18, 18, 18, 0.95);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	border-bottom: 2px solid #333;
+}
+
+.head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.logo img {
+	width: 80px;
+	transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+	transform: scale(1.1);
+}
+
+nav {
+	display: flex;
+	gap: 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 8px 16px;
+	color: #ffffff;
+	transition: all 0.3s ease;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	color: #121212;
+	background-color: #f1c40f;
+}
+
+/* Главный экран (Hero) */
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(18, 18, 18, 1)),
+		url('https://images.hdqwalls.com/wallpapers/a-dark-knight-5c.jpg');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	padding-top: 80px; /* Отступ для фиксированной шапки */
+}
+
+.hero-content {
+	width: 100%;
+}
+
+.hero h1 {
+	color: #f1c40f;
+	font-size: 80px;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.rating-info {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.rating-info span {
+	background: #333;
+	padding: 5px 15px;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	background-color: #f1c40f;
+	color: #121212;
+	padding: 15px 40px;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-bottom: 30px;
+}
+
+.btn-primary:hover {
+	background-color: #d4ac0d;
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(241, 196, 15, 0.3);
+}
+
+.stars-container {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	font-size: 18px;
+}
+
+.stars i {
+	color: #f1c40f;
+	cursor: pointer;
+}
+
+/* Секция "Информация" */
+.about-section {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	padding: 80px 20px;
+}
+
+.about-section img {
+	border-radius: 10px;
+	width: 400px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.about-text h2 {
+	color: #ffffff;
+	font-size: 28px;
+}
+
+.about-text p {
+	color: #b3b3b3;
+	font-size: 18px;
+}
+
+/* Секция "Актеры" */
+.actors-section {
+	padding: 40px 20px;
+}
+
+.actors-grid {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.actors-grid img {
+	width: 200px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.actors-grid img:hover {
+	transform: scale(1.05);
+}
+
+/* Секция "Режиссер" */
+.director-section {
+	padding: 80px 20px;
+	background-color: #1a1a1a;
+	border-radius: 20px;
+	margin-top: 40px;
+}
+
+.director-content {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+.director-images {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.director-images img {
+	width: 300px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.director-text p {
+	color: #b3b3b3;
+	font-size: 16px;
+	text-align: justify;
+}
+
+/* Секция "Магазин" */
+.shop-section {
+	padding: 80px 20px;
+}
+
+.shop-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 30px;
+}
+
+.shop-card {
+	background-color: #1a1a1a;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	transition: transform 0.3s ease;
+	border: 1px solid #333;
+}
+
+.shop-card:hover {
+	transform: translateY(-10px);
+	border-color: #f1c40f;
+}
+
+.shop-card img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+.shop-card h3 {
+	color: #f1c40f;
+	font-size: 20px;
+}
+
+/* Подвал сайта */
+footer {
+	text-align: center;
+	padding: 30px;
+	background-color: #0a0a0a;
+	border-top: 1px solid #333;
+	color: #666;
+	margin-top: 40px;
+}
