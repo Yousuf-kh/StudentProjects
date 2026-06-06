@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    gap: 50px;
+
+    img {
+        width: 100px;
+    }
+
+    .icons {
+        display: flex;
+        color: white;
+
+    }
+}
+
+main {
+    background-image: url(https://media.formula1.com/image/upload/t_16by9Centre/c_fit,w_3200,h_1800/q_auto/v1740000001/fom-website/2026/Red%20Bull/SI202601250304.webp);
+    height: 600px;
+    background-size: cover;
+    position: center;
+}
+
+a {
+    color: aliceblue;
+}
+
+.hero {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+
+    button {
+        background-color: red;
+        width: 120px;
+        color: white;
+        height: 40px;
+        border: none;
+        border-radius: 25px 25px 25px 25px;
+    }
+}
+
+.popular {
+    background-color: #100a39;
+    padding: 50px 0px;
+
+
+
+    img {
+        width: 350px;
+        border-radius: 20px;
+
+    }
+
+    img {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.formula1 {
+    background-image: url(https://i.redd.it/redbull-racing-4k-through-the-lens-2023-dutch-grand-prix-v0-b9hzoagvtukb1.jpg?width=5882&format=pjpg&auto=webp&s=c2549ca3ca0d01b5333fb32f90dcc95387248faf);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+
+    div {
+        padding: 50px;
+    }
+}
+
+h1 {
+    color: aliceblue;
+}
+
+button {
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.redbull {
+    background-color: #100a39;
+    justify-content: space-around;
+    display: flex;
+   
+
+    img {
+        width: 200px;
+
+    }
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.formula2 {
+    background-color: #333;
+    display: flex;
+    padding: 100px;
+
+    img {
+        text-align: center;
+        width: 1300px;
+    }
+}
+
+.formula{
+height: 50px;
+background-color: red;
+h1{
+    text-align: center;
+}* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    gap: 50px;
+
+    img {
+        width: 100px;
+    }
+
+    .icons {
+        display: flex;
+        color: white;
+
+    }
+}
+
+main {
+    background-image: url(https://media.formula1.com/image/upload/t_16by9Centre/c_fit,w_3200,h_1800/q_auto/v1740000001/fom-website/2026/Red%20Bull/SI202601250304.webp);
+    height: 600px;
+}
